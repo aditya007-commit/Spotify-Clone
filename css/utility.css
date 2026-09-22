@@ -1,0 +1,70 @@
+.border{
+    border: 2px solid red;     /* utility class -> eska estemal kisi bhi element pe kar sakte hain */ 
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Dark Scrollbar Style */
+::-webkit-scrollbar {
+  width: 12px;                
+}
+
+/* Scrollbar Track (background) */
+::-webkit-scrollbar-track {
+  background: #121212;       /* Dark background to match theme */
+}
+
+/* Scrollbar Thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #333;  
+  border-radius: 6px;       
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;    /* Slightly lighter on hover */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+/* For Firefox */
+    scrollbar-color: #333 #222;   
+
