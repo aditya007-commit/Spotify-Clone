@@ -353,7 +353,8 @@ async function getSongs(folder) {
         songs = files
             .filter(file =>
                 file.type === "file" &&
-                /\.(mp3|m4a|wav|ogg)$/i.test(file.name)
+                /\.(mp3|m4a|wav|ogg)$/i.test(file.name) &&
+                !/\s-\sCopy(\.[^.]+)$/i.test(file.name)
             )
             .map(file => file.name);
 
